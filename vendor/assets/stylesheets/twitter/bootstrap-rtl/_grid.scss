@@ -1,0 +1,8 @@
+// GRID SYSTEM
+// -----------
+
+// Fixed (940px)
+@include grid-core($gridColumnWidth, $gridGutterWidth);
+
+// Fluid (940px)
+@include grid-fluid($fluidGridColumnWidth, $fluidGridGutterWidth);

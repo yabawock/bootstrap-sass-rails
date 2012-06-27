@@ -7,9 +7,9 @@ require "bootstrap/sass/rails/version"
 Gem::Specification.new do |s|
   s.name        = "bootstrap-sass-rails"
   s.version     = Bootstrap::Sass::Rails::VERSION
-  s.authors     = ["Morton Jonuschat"]
-  s.email       = ["yabawock@gmail.com"]
-  s.homepage    = "https://github.com/yabawock/bootstrap-sass-rails"
+  s.authors     = ["Morton Jonuschat", "Zohar Arad"]
+  s.email       = ["yabawock@gmail.com", "zohar@zohararad.com"]
+  s.homepage    = "https://github.com/zohararad/bootstrap-sass-rails"
   s.summary     = "HTML, CSS, and JS toolkit from Twitter converted to Sasss and the Rails asset pipeline"
   s.description = "Bootstrap is Twitter's toolkit for kickstarting CSS for websites, apps, and more. It includes base CSS styles for typography, forms, buttons, tables, grids, navigation, alerts, and more."
 
