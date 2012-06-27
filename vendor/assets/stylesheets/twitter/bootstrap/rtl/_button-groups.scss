@@ -43,7 +43,7 @@
 }
 // Need .dropdown-toggle since :last-child doesn't apply given a .dropdown-menu immediately after it
 .btn-group > .btn:last-child,
-.btn-group > .dropdown-toggle {
+.btn-group > .btn.dropdown-toggle {
      -webkit-border-top-left-radius: 4px;
          -moz-border-radius-topleft: 4px;
              border-top-left-radius: 4px;
@@ -62,7 +62,7 @@
           border-bottom-right-radius: 6px;
 }
 .btn-group > .btn.large:last-child,
-.btn-group > .large.dropdown-toggle {
+.btn-group > .btn.large.dropdown-toggle {
      -webkit-border-top-left-radius: 6px;
          -moz-border-radius-topleft: 6px;
              border-top-left-radius: 6px;
