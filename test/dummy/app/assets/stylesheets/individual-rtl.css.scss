@@ -1,0 +1,11 @@
+@import "twitter/bootstrap/rtl/variables";
+@import "twitter/bootstrap/rtl/mixins";
+@import "twitter/bootstrap/rtl/responsive";
+
+@mixin myButton($radius: 5px) {
+  @include border-radius($radius);
+}
+
+#individual-my-button {
+  @include myButton(10px);
+}

@@ -1,0 +1,62 @@
+/*!
+ * Bootstrap v2.0.4
+ *
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+
+// Core variables and mixins
+@import "bootstrap/rtl/variables"; // Modify this for custom colors, font-sizes, etc
+@import "bootstrap/rtl/mixins";
+
+// CSS Reset
+@import "bootstrap/rtl/reset";
+
+// Grid system and page structure
+@import "bootstrap/rtl/scaffolding";
+@import "bootstrap/rtl/grid";
+@import "bootstrap/rtl/layouts";
+
+// Base CSS
+@import "bootstrap/rtl/type";
+@import "bootstrap/rtl/code";
+@import "bootstrap/rtl/forms";
+@import "bootstrap/rtl/tables";
+
+// Components: common
+@import "bootstrap/rtl/sprites";
+@import "bootstrap/rtl/dropdowns";
+@import "bootstrap/rtl/wells";
+@import "bootstrap/rtl/component-animations";
+@import "bootstrap/rtl/close";
+
+// Components: Buttons & Alerts
+@import "bootstrap/rtl/buttons";
+@import "bootstrap/rtl/button-groups";
+@import "bootstrap/rtl/alerts"; // Note: alerts share common CSS with buttons and thus have styles in buttons.less
+
+// Components: Nav
+@import "bootstrap/rtl/navs";
+@import "bootstrap/rtl/navbar";
+@import "bootstrap/rtl/breadcrumbs";
+@import "bootstrap/rtl/pagination";
+@import "bootstrap/rtl/pager";
+
+// Components: Popovers
+@import "bootstrap/rtl/modals";
+@import "bootstrap/rtl/tooltip";
+@import "bootstrap/rtl/popovers";
+
+// Components: Misc
+@import "bootstrap/rtl/thumbnails";
+@import "bootstrap/rtl/labels-badges";
+@import "bootstrap/rtl/progress-bars";
+@import "bootstrap/rtl/accordion";
+@import "bootstrap/rtl/carousel";
+@import "bootstrap/rtl/hero-unit";
+
+// Utility classes
+@import "bootstrap/rtl/utilities"; // Has to be last to override when necessary
